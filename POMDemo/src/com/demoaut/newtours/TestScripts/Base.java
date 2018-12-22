@@ -22,5 +22,6 @@ public class Base {
 	@AfterClass
 	public void closeApplication() {
 		driver.close();
+		System.out.println("End");
 	}
 }
